@@ -18,23 +18,36 @@ img{
     height: 20em;
 }
 
-.red{
+.bar{
     background-color: rgb(105, 100, 100);
     height: 5em;
+    color: rgb(105, 100, 100);
+    font-size: 30px;
+    font-family:'Righteous', cursive;
+    text-align: center;
+    transition: 1s;
+
+}
+.bar2{
+    background-color: rgb(105, 100, 100);
+    height: 5em;
+    color: rgb(105, 100, 100);
+    
 
 }
 
-.red:hover{
+.bar:hover{
     height: 3em;
     transition: all ease-in-out;
-    background-color: blue;
+    background-color: rgb(105, 100, 100);
     transition-duration: 2s;
-}
+    color: white;
+}    
 
 .front{
-    background-image: url(../img/comedor.jpg);
+    background-image: url(../img/sala.jpg);
     height: 15em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Righteous', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +55,7 @@ img{
 }
 
 .front:hover{
-    background-color: rgb(83, 60, 39);
+
     height: 20em;
     transition: all ease-in-out 1s;  
     
@@ -71,6 +84,10 @@ img{
 
 }
 
+.img3{
+    width: 100%;
+}
+
 @media (max-width:1000px){
     .responsive{
         width: 82%;
@@ -94,11 +111,36 @@ img{
 
 @media (max-width:300px){
     .responsive{
+        justify-content: left;
         width:90%;    
     }
     .text{
         display: none;
     }
+
+}
+
+.parallax{
+    height: 200px;
+    background-image: url(../img/portada3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+}
+
+.parallax p{
+    background-color: rgba(243, 243, 243, 0.158);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Righteous', cursive; ;
+    
+    
 
 }
 
