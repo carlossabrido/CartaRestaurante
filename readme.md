@@ -27,7 +27,7 @@ Finally, here whe have the contact page, where you can book a table and see our 
 
 # Technologies used
 
-![img](img/html%20y%20css.png)
+![img](img/html%20y%20css%20nuevo.png)
 
 # Inquires
 
